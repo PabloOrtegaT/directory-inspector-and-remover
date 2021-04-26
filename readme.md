@@ -4,9 +4,17 @@ _This is a directory inspector and also works as a directory remover_
 
 ## How-to use
 
-For navigation, you just need to type -node directory.js "directory-to-navigate"-, it accepts absolute and relative paths and only takes into account the first parameter you put right next to directory.js.
+For navigation, you just need to type 
 
-For deletion, you need to type -node directory.js delete "directory-to-delete"-, it only accepts relative paths, so you can only delete files within the directory of the project.
+node directory.js "directory-to-navigate"
+
+it accepts absolute and relative paths and only takes into account the first parameter you put right next to directory.js.
+
+For deletion, you need to type 
+
+node directory.js delete "directory-to-delete"
+
+it only accepts relative paths, so you can only delete files within the directory of the project.
 
 ### Modules instalation 🔧
 
