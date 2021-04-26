@@ -53,7 +53,7 @@ function countFilesAndDirectories(directoryToDelete){
                 directories++;
                 countFilesAndDirectories(`${directoryToDelete}\\${file}`);
             }else{
-                console.log(`file to remove -file: ${file} -size: ${statSync.size} bytes` )
+                console.log(`file to remove: ${file} -size: ${statSync.size} bytes` )
                 files++;
             }
         });
